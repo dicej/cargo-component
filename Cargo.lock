@@ -3839,8 +3839,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen"
-version = "0.12.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2405a79c74c5d61b9bc88c378d475c6c21ed6a9f"
+version = "0.13.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2b9372dbf7b06edbf9ca9c9417a755d6cf1a0eed"
 dependencies = [
  "bitflags 2.4.0",
  "wit-bindgen-rust-macro",
@@ -3848,8 +3848,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-core"
-version = "0.12.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2405a79c74c5d61b9bc88c378d475c6c21ed6a9f"
+version = "0.13.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2b9372dbf7b06edbf9ca9c9417a755d6cf1a0eed"
 dependencies = [
  "anyhow",
  "wit-component",
@@ -3858,8 +3858,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-rust"
-version = "0.12.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2405a79c74c5d61b9bc88c378d475c6c21ed6a9f"
+version = "0.13.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2b9372dbf7b06edbf9ca9c9417a755d6cf1a0eed"
 dependencies = [
  "anyhow",
  "heck",
@@ -3870,8 +3870,8 @@ dependencies = [
 
 [[package]]
 name = "wit-bindgen-rust-macro"
-version = "0.12.0"
-source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2405a79c74c5d61b9bc88c378d475c6c21ed6a9f"
+version = "0.13.0"
+source = "git+https://github.com/bytecodealliance/wit-bindgen.git#2b9372dbf7b06edbf9ca9c9417a755d6cf1a0eed"
 dependencies = [
  "anyhow",
  "proc-macro2",
@@ -3884,9 +3884,9 @@ dependencies = [
 
 [[package]]
 name = "wit-component"
-version = "0.15.0"
+version = "0.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c1bc644bb4205a2ee74035e5d35958777575fa4c6dd38ce7226c7680be2861c1"
+checksum = "e87488b57a08e2cbbd076b325acbe7f8666965af174d69d5929cd373bd54547f"
 dependencies = [
  "anyhow",
  "bitflags 2.4.0",
@@ -3903,9 +3903,9 @@ dependencies = [
 
 [[package]]
 name = "wit-parser"
-version = "0.12.0"
+version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d08c9557c65c428ac18a3cce80bf2527dbec24ab06639642c7db73f2c7613f93"
+checksum = "f6ace9943d89bbf3dbbc71b966da0e7302057b311f36a4ac3d65ddfef17b52cf"
 dependencies = [
  "anyhow",
  "id-arena",
